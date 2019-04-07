@@ -8,7 +8,9 @@ int main () {
     double d = 1.3;
     int const five = 5;
     double e = a/two; // "a" kann nicht durch "two" geteilt werden da "two" ein String ist.
-    five = d; // "five" ist kein definierter Datentyp 
+    
+    five = d; // "five" ist konstant und kann daher nicht verändert werden.
+    
     return 0;
 }
     "Datentyp" "Variable" = "Wert";

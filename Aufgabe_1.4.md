@@ -16,6 +16,6 @@ int main () {
 
 Mit dem Schlüsselwort "const" wird eine Variable fixiert und kann nicht mehr vom Programm geändert werden. <br/> <br/>
 
-"Typkonvertierung" beschreibt den Übergang von einem Datentyp zum anderen, von int zu float z.B. <br/> 
+"Typkonvertierung" beschreibt den Übergang von einem Datentyp zum anderen, von int zu float beispielsweise. <br/> 
 Dabei kann es zu Problemen kommen da die Nachkommastellen verloren gehen. 
 

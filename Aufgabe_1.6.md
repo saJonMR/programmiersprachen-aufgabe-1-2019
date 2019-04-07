@@ -29,7 +29,7 @@ class klasse() { //Deklaration
     void objekt() { //Definition
         eins = 1;
         zwei = 2;
-    }
+    } 
 }
 
 

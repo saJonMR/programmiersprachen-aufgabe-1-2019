@@ -13,9 +13,9 @@ int square (int var) //"square" ist immer gültig, "var" nur in "square".
 {
     return var * var;
 }
-int main () //Alles nur innerhalb der "main" Methode gültig.
+int main () //
 {
-    for (int i = 0; i != 100; ++i) {
+    for (int i = 0; i != 100; ++i) { //"i" nur innerhalb der main Methode gültig.
     std :: cout << "i^2 = " << square (i) << ’\n’;
     std :: cout << "i+i = " << sum(i,i) << ’\n’;
     }

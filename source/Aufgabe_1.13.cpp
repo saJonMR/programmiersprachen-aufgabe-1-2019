@@ -1,4 +1,5 @@
-#include <iostream>
+#define CATCH_CONFIG_RUNNER
+#include <catch.hpp>
 #include <cmath>
 
 int factorial(int a)
@@ -12,7 +13,13 @@ int factorial(int a)
     return prod;
 }
 
-int main()
+TEST_CASE("describe_factorial", "[factorial]")
 {
-    std::cout << factorial(5) << "\n";
+    REQUIRE(factorial (5) == 15);
+}
+
+
+int main(int argc, char* argv[])
+{
+  return Catch::Session().run(argc, argv);
 }

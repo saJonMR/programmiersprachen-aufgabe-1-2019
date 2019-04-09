@@ -14,11 +14,11 @@ float volume(float r, float h)
   return vol;
 }
 
-TEST_CASE("describe_surface", "[surface]")
+TEST_CASE("describe_volume", "[volume]")
 {
     REQUIRE(volume (2, 4) == Approx(50.2655));
 }
-TEST_CASE("describe_volume", "[volume]")
+TEST_CASE("describe_surface", "[surface]")
 {
     REQUIRE(surface (2, 2) == Approx(25.1327));
 }

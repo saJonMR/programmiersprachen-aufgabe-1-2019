@@ -23,3 +23,5 @@ int main () //
 }
 ```
 
+Zur Signatur einer Funktion gehört Rückgabewert und Parameter.
+

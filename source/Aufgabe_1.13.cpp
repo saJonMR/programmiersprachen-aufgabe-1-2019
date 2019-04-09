@@ -4,7 +4,7 @@
 int factorial(int a)
 {
     int prod = 0;
-    for (int i = 0; i <= a; i++)
+    while (a >= 0)
     {
         prod += a;
         a = a - 1;

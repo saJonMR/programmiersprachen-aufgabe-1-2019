@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/datboi/GitHub/programmiersprachen-aufgabe-1/source/aufgabe_1.13.cpp
+iostream
+-
+cmath
+-
+

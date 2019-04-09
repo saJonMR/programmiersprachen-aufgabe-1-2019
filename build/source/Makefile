@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe_1_13.dir/rule:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_1_13.dir/rule
+.PHONY : source/CMakeFiles/aufgabe_1_13.dir/rule
+
+# Convenience name for target.
+aufgabe_1_13: source/CMakeFiles/aufgabe_1_13.dir/rule
+
+.PHONY : aufgabe_1_13
+
+# fast build rule for target.
+aufgabe_1_13/fast:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_13.dir/build.make source/CMakeFiles/aufgabe_1_13.dir/build
+.PHONY : aufgabe_1_13/fast
+
+# Convenience name for target.
 source/CMakeFiles/tests.dir/rule:
 	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/tests.dir/rule
 .PHONY : source/CMakeFiles/tests.dir/rule
@@ -139,6 +154,21 @@ aufgabe_1_10: source/CMakeFiles/aufgabe_1_10.dir/rule
 aufgabe_1_10/fast:
 	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_10.dir/build.make source/CMakeFiles/aufgabe_1_10.dir/build
 .PHONY : aufgabe_1_10/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe_1_12.dir/rule:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_1_12.dir/rule
+.PHONY : source/CMakeFiles/aufgabe_1_12.dir/rule
+
+# Convenience name for target.
+aufgabe_1_12: source/CMakeFiles/aufgabe_1_12.dir/rule
+
+.PHONY : aufgabe_1_12
+
+# fast build rule for target.
+aufgabe_1_12/fast:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_12.dir/build.make source/CMakeFiles/aufgabe_1_12.dir/build
+.PHONY : aufgabe_1_12/fast
 
 # Convenience name for target.
 source/CMakeFiles/aufgabe_1_9.dir/rule:
@@ -253,6 +283,60 @@ aufgabe_1.11.s: aufgabe_1.11.cpp.s
 aufgabe_1.11.cpp.s:
 	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_11.dir/build.make source/CMakeFiles/aufgabe_1_11.dir/aufgabe_1.11.cpp.s
 .PHONY : aufgabe_1.11.cpp.s
+
+aufgabe_1.12.o: aufgabe_1.12.cpp.o
+
+.PHONY : aufgabe_1.12.o
+
+# target to build an object file
+aufgabe_1.12.cpp.o:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_12.dir/build.make source/CMakeFiles/aufgabe_1_12.dir/aufgabe_1.12.cpp.o
+.PHONY : aufgabe_1.12.cpp.o
+
+aufgabe_1.12.i: aufgabe_1.12.cpp.i
+
+.PHONY : aufgabe_1.12.i
+
+# target to preprocess a source file
+aufgabe_1.12.cpp.i:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_12.dir/build.make source/CMakeFiles/aufgabe_1_12.dir/aufgabe_1.12.cpp.i
+.PHONY : aufgabe_1.12.cpp.i
+
+aufgabe_1.12.s: aufgabe_1.12.cpp.s
+
+.PHONY : aufgabe_1.12.s
+
+# target to generate assembly for a file
+aufgabe_1.12.cpp.s:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_12.dir/build.make source/CMakeFiles/aufgabe_1_12.dir/aufgabe_1.12.cpp.s
+.PHONY : aufgabe_1.12.cpp.s
+
+aufgabe_1.13.o: aufgabe_1.13.cpp.o
+
+.PHONY : aufgabe_1.13.o
+
+# target to build an object file
+aufgabe_1.13.cpp.o:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_13.dir/build.make source/CMakeFiles/aufgabe_1_13.dir/aufgabe_1.13.cpp.o
+.PHONY : aufgabe_1.13.cpp.o
+
+aufgabe_1.13.i: aufgabe_1.13.cpp.i
+
+.PHONY : aufgabe_1.13.i
+
+# target to preprocess a source file
+aufgabe_1.13.cpp.i:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_13.dir/build.make source/CMakeFiles/aufgabe_1_13.dir/aufgabe_1.13.cpp.i
+.PHONY : aufgabe_1.13.cpp.i
+
+aufgabe_1.13.s: aufgabe_1.13.cpp.s
+
+.PHONY : aufgabe_1.13.s
+
+# target to generate assembly for a file
+aufgabe_1.13.cpp.s:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_13.dir/build.make source/CMakeFiles/aufgabe_1_13.dir/aufgabe_1.13.cpp.s
+.PHONY : aufgabe_1.13.cpp.s
 
 aufgabe_1.3.o: aufgabe_1.3.cpp.o
 
@@ -369,9 +453,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... aufgabe_1_13"
 	@echo "... edit_cache"
 	@echo "... tests"
 	@echo "... aufgabe_1_10"
+	@echo "... aufgabe_1_12"
 	@echo "... aufgabe_1_9"
 	@echo "... aufgabe_1_11"
 	@echo "... aufgabe_1_3"
@@ -382,6 +468,12 @@ help:
 	@echo "... aufgabe_1.11.o"
 	@echo "... aufgabe_1.11.i"
 	@echo "... aufgabe_1.11.s"
+	@echo "... aufgabe_1.12.o"
+	@echo "... aufgabe_1.12.i"
+	@echo "... aufgabe_1.12.s"
+	@echo "... aufgabe_1.13.o"
+	@echo "... aufgabe_1.13.i"
+	@echo "... aufgabe_1.13.s"
 	@echo "... aufgabe_1.3.o"
 	@echo "... aufgabe_1.3.i"
 	@echo "... aufgabe_1.3.s"

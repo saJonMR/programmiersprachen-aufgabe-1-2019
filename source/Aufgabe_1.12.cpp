@@ -2,17 +2,25 @@
 #include <catch.hpp>
 #include <cmath>
 
-float fract(float a)
+float surface(float r, float h)
 {
-    float nachKomma = a;
-    int vor = a;
-    float ergebnis = nachKomma - vor;
-    return ergebnis;
+  float sur = 2 * M_PI * (r + h);
+  return sur;
 }
 
-TEST_CASE("describe_fract", "[fract]")
+float volume(float r, float h)
 {
-    REQUIRE(fract (5.678) == 0.678);
+  float vol = M_PI * (r * r) * h;
+  return vol;
+}
+
+TEST_CASE("describe_surface", "[surface]")
+{
+    REQUIRE(volume (2, 4) == Approx(50.2655));
+}
+TEST_CASE("describe_volume", "[volume]")
+{
+    REQUIRE(surface (2, 2) == Approx(25.1327));
 }
 
 int main(int argc, char* argv[])

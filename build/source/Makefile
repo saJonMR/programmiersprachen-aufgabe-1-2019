@@ -126,6 +126,51 @@ tests/fast:
 .PHONY : tests/fast
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe_1_10.dir/rule:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_1_10.dir/rule
+.PHONY : source/CMakeFiles/aufgabe_1_10.dir/rule
+
+# Convenience name for target.
+aufgabe_1_10: source/CMakeFiles/aufgabe_1_10.dir/rule
+
+.PHONY : aufgabe_1_10
+
+# fast build rule for target.
+aufgabe_1_10/fast:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_10.dir/build.make source/CMakeFiles/aufgabe_1_10.dir/build
+.PHONY : aufgabe_1_10/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe_1_9.dir/rule:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_1_9.dir/rule
+.PHONY : source/CMakeFiles/aufgabe_1_9.dir/rule
+
+# Convenience name for target.
+aufgabe_1_9: source/CMakeFiles/aufgabe_1_9.dir/rule
+
+.PHONY : aufgabe_1_9
+
+# fast build rule for target.
+aufgabe_1_9/fast:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_9.dir/build.make source/CMakeFiles/aufgabe_1_9.dir/build
+.PHONY : aufgabe_1_9/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe_1_11.dir/rule:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_1_11.dir/rule
+.PHONY : source/CMakeFiles/aufgabe_1_11.dir/rule
+
+# Convenience name for target.
+aufgabe_1_11: source/CMakeFiles/aufgabe_1_11.dir/rule
+
+.PHONY : aufgabe_1_11
+
+# fast build rule for target.
+aufgabe_1_11/fast:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_11.dir/build.make source/CMakeFiles/aufgabe_1_11.dir/build
+.PHONY : aufgabe_1_11/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe_1_3.dir/rule:
 	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe_1_3.dir/rule
 .PHONY : source/CMakeFiles/aufgabe_1_3.dir/rule
@@ -155,6 +200,60 @@ helloworld/fast:
 	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
+aufgabe_1.10.o: aufgabe_1.10.cpp.o
+
+.PHONY : aufgabe_1.10.o
+
+# target to build an object file
+aufgabe_1.10.cpp.o:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_10.dir/build.make source/CMakeFiles/aufgabe_1_10.dir/aufgabe_1.10.cpp.o
+.PHONY : aufgabe_1.10.cpp.o
+
+aufgabe_1.10.i: aufgabe_1.10.cpp.i
+
+.PHONY : aufgabe_1.10.i
+
+# target to preprocess a source file
+aufgabe_1.10.cpp.i:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_10.dir/build.make source/CMakeFiles/aufgabe_1_10.dir/aufgabe_1.10.cpp.i
+.PHONY : aufgabe_1.10.cpp.i
+
+aufgabe_1.10.s: aufgabe_1.10.cpp.s
+
+.PHONY : aufgabe_1.10.s
+
+# target to generate assembly for a file
+aufgabe_1.10.cpp.s:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_10.dir/build.make source/CMakeFiles/aufgabe_1_10.dir/aufgabe_1.10.cpp.s
+.PHONY : aufgabe_1.10.cpp.s
+
+aufgabe_1.11.o: aufgabe_1.11.cpp.o
+
+.PHONY : aufgabe_1.11.o
+
+# target to build an object file
+aufgabe_1.11.cpp.o:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_11.dir/build.make source/CMakeFiles/aufgabe_1_11.dir/aufgabe_1.11.cpp.o
+.PHONY : aufgabe_1.11.cpp.o
+
+aufgabe_1.11.i: aufgabe_1.11.cpp.i
+
+.PHONY : aufgabe_1.11.i
+
+# target to preprocess a source file
+aufgabe_1.11.cpp.i:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_11.dir/build.make source/CMakeFiles/aufgabe_1_11.dir/aufgabe_1.11.cpp.i
+.PHONY : aufgabe_1.11.cpp.i
+
+aufgabe_1.11.s: aufgabe_1.11.cpp.s
+
+.PHONY : aufgabe_1.11.s
+
+# target to generate assembly for a file
+aufgabe_1.11.cpp.s:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_11.dir/build.make source/CMakeFiles/aufgabe_1_11.dir/aufgabe_1.11.cpp.s
+.PHONY : aufgabe_1.11.cpp.s
+
 aufgabe_1.3.o: aufgabe_1.3.cpp.o
 
 .PHONY : aufgabe_1.3.o
@@ -181,6 +280,33 @@ aufgabe_1.3.s: aufgabe_1.3.cpp.s
 aufgabe_1.3.cpp.s:
 	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_3.dir/build.make source/CMakeFiles/aufgabe_1_3.dir/aufgabe_1.3.cpp.s
 .PHONY : aufgabe_1.3.cpp.s
+
+aufgabe_1.9.o: aufgabe_1.9.cpp.o
+
+.PHONY : aufgabe_1.9.o
+
+# target to build an object file
+aufgabe_1.9.cpp.o:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_9.dir/build.make source/CMakeFiles/aufgabe_1_9.dir/aufgabe_1.9.cpp.o
+.PHONY : aufgabe_1.9.cpp.o
+
+aufgabe_1.9.i: aufgabe_1.9.cpp.i
+
+.PHONY : aufgabe_1.9.i
+
+# target to preprocess a source file
+aufgabe_1.9.cpp.i:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_9.dir/build.make source/CMakeFiles/aufgabe_1_9.dir/aufgabe_1.9.cpp.i
+.PHONY : aufgabe_1.9.cpp.i
+
+aufgabe_1.9.s: aufgabe_1.9.cpp.s
+
+.PHONY : aufgabe_1.9.s
+
+# target to generate assembly for a file
+aufgabe_1.9.cpp.s:
+	cd /Users/datboi/GitHub/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe_1_9.dir/build.make source/CMakeFiles/aufgabe_1_9.dir/aufgabe_1.9.cpp.s
+.PHONY : aufgabe_1.9.cpp.s
 
 helloworld.o: helloworld.cpp.o
 
@@ -245,11 +371,23 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... tests"
+	@echo "... aufgabe_1_10"
+	@echo "... aufgabe_1_9"
+	@echo "... aufgabe_1_11"
 	@echo "... aufgabe_1_3"
 	@echo "... helloworld"
+	@echo "... aufgabe_1.10.o"
+	@echo "... aufgabe_1.10.i"
+	@echo "... aufgabe_1.10.s"
+	@echo "... aufgabe_1.11.o"
+	@echo "... aufgabe_1.11.i"
+	@echo "... aufgabe_1.11.s"
 	@echo "... aufgabe_1.3.o"
 	@echo "... aufgabe_1.3.i"
 	@echo "... aufgabe_1.3.s"
+	@echo "... aufgabe_1.9.o"
+	@echo "... aufgabe_1.9.i"
+	@echo "... aufgabe_1.9.s"
 	@echo "... helloworld.o"
 	@echo "... helloworld.i"
 	@echo "... helloworld.s"

@@ -1,0 +1,57 @@
+C++: ist eine objektorientierte Programmiersprache.
+
+Quellcode: ist der für Menschen lesbare, in einer Programmiersprache geschriebene Text eines Computerprogramms.
+
+Compiler: ist dazu da den Quellcode in eine Form zu übersetzen die der Computer direkter ausführen kann. 
+
+Linker: ist ein Computerprogramm das einzelne Programmmodule zu einem Programm verbindet.
+
+Objektcode: ist ein Zwischencode der bei der compilierung als Zwischenergebnis entsteht.
+
+Ausführbare Datei: ist eine Datei die als Computerprogramm ausgeführt werden kann.
+
+main(): eine globale Funktion die der designierte Start des Programms ist.
+
+#include: eine Anweisung an den Compiler den namentlich spezifizierten Codeteil im Quellcode einzufügen.
+
+Kommentar: eine Möglichkeit Notizen im Quellcode einzufügen.
+
+Header: eine Header-Datei enthält Funktionsdeklarationen und Ähnliches.
+
+Programm: ist eine Folge von Anweisungen um Funktionen oder Aufgaben zu bearbeiten.
+
+Ausgabe: das Ergebnis des Programms.
+
+std::cout: "cout" ist im standart namespace definiert, wird zur Ausgabe genutzt.
+
+std::cin: wird zum einlesen von eingaben in der Konsole genutzt.
+
+<<: Ausgabeoperator der es ermöglicht beliebig viele Teile der Ausgabe aneinander zu hängen.
+
+>>: andersrum.
+
+Funktion: Eine Funktion ist eine Ansammlung von Anweisungen, der ein Name gegeben wird und die jederzeit im Programm über diesen Namen aufgerufen und ausgeführt werden kann.
+
+Funktionssignatur: Zur Signatur einer Funktion gehört Rückgabewert und Parameter.
+
+Deklaration: Führt Namen und Typen ein ohne Details zu nennen.
+
+Definition: Mit der Definition wird der Speicherplatz für die Variable reserviert und der Aufbau des Datentyps festgelegt.
+
+Typ: Der Typ definiert um was für einen Wert es sich handelt.
+
+Typkonvertierung: veränderung des Datentyps, von int zu float z.B.
+
+Variable: ein Bereich im Speicher in dem ein Wert abgelegt werden kann.
+
+Name: der Name identifiziert die Variable/Funktion/Klasse eindeutig.
+
+Wert: selbsterklärend...
+
+Initialisierung: Eine Variable bekommt den ersten Wert zugeteilt.
+
+Zuweisung: Eine Variable bekommt einen Wert zugewiesen.
+
+const: setzt einen Wert fest, so dass er nicht mehr verändert werden kann.
+
+Gültigkeitsbereich: beschreibt den Bereich in den z.B. eine Variable gültig ist.

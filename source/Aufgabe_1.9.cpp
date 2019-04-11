@@ -14,7 +14,7 @@ int checksum(int a)
 
 TEST_CASE("describe_checksum", "[checksum]")
 {
-    REQUIRE(checksum (119989) == 267333);
+    REQUIRE(checksum (119989) == 37);
 }
 
 int main(int argc, char* argv[])

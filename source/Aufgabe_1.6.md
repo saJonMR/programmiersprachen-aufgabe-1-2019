@@ -2,7 +2,6 @@
 
 ### Deklaration:
 Führt Namen und Typen ein ohne Details zu nennen.<br/>
-Mit einer Deklaration wird der Typ und der Name der Variable festgelegt.
 
 ### Definition:
 Mit der Definition wird der Speicherplatz für die Variable reserviert und der Aufbau des Datentyps festgelegt.
